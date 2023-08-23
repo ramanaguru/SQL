@@ -1,1 +1,10 @@
+Find Customer Referee (Leetcode - 584)
 
+=====================================================================================================================================
+Problem Link  =========> https://leetcode.com/problems/find-customer-referee/description/?envType=study-plan-v2&envId=top-sql-50
+=====================================================================================================================================
+
+//QUERY
+
+SELECT name FROM Customer
+where referee_id !=2 or referee_id is NULL;
