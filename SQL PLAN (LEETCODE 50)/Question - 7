@@ -1,0 +1,12 @@
+Product Sales Analysis I (Leetcode - 1068)
+
+=====================================================================================================================================
+Problem Link  =========> https://leetcode.com/problems/product-sales-analysis-i/description/?envType=study-plan-v2&envId=top-sql-50
+=====================================================================================================================================
+
+//QUERY
+
+SELECT p.product_name as product_name , s.year as year , s.price  as price
+FROM Sales s
+JOIN Product p   -- or INNER JOIN  Product p
+ON s.product_id = p.product_id;
