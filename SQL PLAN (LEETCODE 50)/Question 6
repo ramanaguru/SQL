@@ -1,4 +1,10 @@
+Replace Employee ID With The Unique Identifier(Leetcode - 1378)
 
+=====================================================================================================================================
+Problem Link  =========> https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/
+=====================================================================================================================================
+
+//QUERY
 
 SELECT euni.unique_id AS unique_id , e.name AS name 
 FROM Employees e
