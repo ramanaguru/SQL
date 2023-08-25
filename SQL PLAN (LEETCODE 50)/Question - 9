@@ -1,1 +1,13 @@
+Rising Temperature (Leetcode - 197)
 
+=====================================================================================================================================
+Problem Link  =========> https://leetcode.com/problems/rising-temperature/description/?envType=study-plan-v2&envId=top-sql-50
+=====================================================================================================================================
+
+//QUERY
+
+Select b.id
+from Weather a
+Join Weather b
+On a.recorddate = date_sub(b.recorddate , interval 1 day)
+where b.temperature > a.temperature;
